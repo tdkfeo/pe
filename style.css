@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     background-color: #98C0F5;
+    margin: 0px;
 }
 
 header {
@@ -27,7 +28,12 @@ header {
     align-items: center;
     text-align: center;
 }
-
+.button:hover{
+    background-color: black;
+    color: #98A3F5;
+    border: white solid 0.5px;
+    padding: 14.5px;
+}
 nav {
     border-top: 5px solid white;
     border-bottom: 5px solid white;
@@ -50,8 +56,8 @@ h1 {
     text-align: center;
     color: black;
     font-size: 36px;
-    margin-top: ;
-    margin-bottom: ;
+    margin-top: 0.1;
+    margin-bottom: 0.1;
 }
 
 p {
@@ -86,13 +92,14 @@ article {
 }
 
 footer {
+    display: flex;
     background-color: white;
-    padding: ;
-    width: 1160px;
+    padding: 0.1;
+    width: auto;
 }
 
 footer a {
-    margin-right: ;
+    margin-right: 24px;
 }
 
 footer p {
