@@ -5,13 +5,12 @@ body {
 }
 
 header {
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 15px;
     margin-bottom: 20px;
     display: flex;
-    justify-content: flex-start;
     background-color: black;
-    width: 1160px;
+    width: auto;
 
     
 }
@@ -27,6 +26,7 @@ header {
     width: 129px;
     align-items: center;
     text-align: center;
+    margin-left: 10px;
 }
 .button:hover{
     background-color: black;
@@ -89,6 +89,21 @@ article {
     font-size: 24px;
     text-align: center;
     padding: 10px 75px 10px 75px;
+}
+.promo {
+    width: 170px;
+    height: 450px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+
+}
+.social1, .social2 {
+    margin-left: 50px;
+    display: block;
+}
+.social2{
+    margin-top: 20px;
 }
 
 footer {
