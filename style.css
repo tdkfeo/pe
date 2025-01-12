@@ -96,7 +96,8 @@ article {
     position: fixed;
     right: 0px;
     bottom: 0px;
-
+    background-color: black;
+    color: white;
 }
 .social1, .social2 {
     margin-left: 50px;
